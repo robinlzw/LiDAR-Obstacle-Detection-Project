@@ -120,5 +120,7 @@ int main (int argc, char** argv)
           streamIterator = stream.begin();
         }
         viewer->spinOnce ();
+	sleep(1);
+        std::cout << "this pcd process finish" << std::endl << std::endl;
     }
 }
